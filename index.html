@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSex - Educación Sexual Integral</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">EduSex</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">EduSex</a>
+
+          <button class="nav-close-btn" aria-label="cerrar menú" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Objetivos</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Prevención</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Recursos</a>
+          </li>
+          <li>
+            <a href="#Preguntas" class="navbar-link" data-nav-link>Preguntas Frecuentes</a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="abrir menú" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle has-before">Bienvenido a EduSex</p>
+                <h1 class="h1 hero-title">Educación Sexual Integral para un Futuro Saludable</h1>
+                <p class="hero-text">
+                    La educación sexual integral es esencial para promover la salud sexual y reproductiva, prevenir embarazos no deseados, infecciones de transmisión sexual y construir relaciones saludables. Estamos comprometidos en proporcionarte información y recursos para que tomes decisiones informadas. ¡Únete a nosotros en esta importante misión!
+                </p>
+            </div>
+            <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+                <img src="./assets/images/sex_education.png" width="650" height="650" alt="imagen de EduSex" class="img-cover">
+            </figure>
+        </div>
+    </section>
+    
+    
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+            <figure class="about-banner">
+                <img src="./assets/images/feature-banner.png" width="802" height="654" loading="lazy" alt="Imagen de EduSex" class="w-100">
+            </figure>
+            <div class="about-content">
+                <h2 class="h2-sm section-title">Nuestra Misión: Educación Sexual Integral</h2>
+                <p class="section-text">
+                    En EduSex, nuestra misión es promover la educación sexual integral como un pilar fundamental para la salud y el bienestar. Nos esforzamos por proporcionar información y recursos educativos para que las personas tomen decisiones informadas sobre su salud sexual y reproductiva.
+                </p>
+                <ul class="about-list">
+                    <li class="has-before">
+                        Identificar los principales obstáculos para la implementación de la ESI en Colombia.
+                    </li>
+                    <li class="has-before">
+                        Desarrollar una página web que aborde estos obstáculos y promueva la ESI de manera efectiva y equitativa.
+                    </li>
+                    <li class="has-before">
+                        Evaluar la efectividad de la página web en la promoción de la ESI.
+                    </li>
+                </ul>
+                <div class="btn-group">
+                    <a class="btn btn-primary">Conoce Más</a>
+                    <button class="flex-btn">
+                        <div class="btn-icon">
+                            <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <span class="span">Nuestra Misión en Detalle</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      
+      
+      
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+            <p class="section-subtitle text-center">- Nuestros Servicios -</p>
+            <h2 class="h2 section-title text-center">Servicios de Educación Sexual Integral</h2>
+            <p class="section-text text-center">
+                Descubre cómo nuestros servicios promueven la educación sexual integral y la salud sexual y reproductiva.
+            </p>
+            <ul class="grid-list">
+                <li>
+                    <div class="service-card has-after">
+                        <figure class="card-icon">
+                            <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                                alt="Materiales Educativos" class="img">
+                        </figure>
+                        <div class="card-content">
+                            <h3 class="h3 card-title">Materiales Educativos</h3>
+                            <p class="card-text">
+                                Ofrecemos folletos, guías y recursos informativos para promover la educación sexual integral.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class "service-card has-after">
+                        <figure class="card-icon">
+                            <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy"
+                                alt="Talleres y Capacitaciones" class="img">
+                        </figure>
+                        <div class="card-content">
+                            <h3 class="h3 card-title">Talleres y Capacitaciones</h3>
+                            <p class="card-text">
+                                Organizamos talleres y capacitaciones para promover la educación sexual en la comunidad.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card has-after">
+                        <figure class="card-icon">
+                            <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                                alt="Asesoría Personalizada" class="img">
+                        </figure>
+                        <div class="card-content">
+                            <h3 class="h3 card-title">Asesoría Personalizada</h3>
+                            <p class="card-text">
+                                Brindamos asesoría y orientación personalizada sobre salud sexual y reproductiva.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card has-after">
+                        <figure class="card-icon">
+                            <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy"
+                                alt="Recursos en Línea" class="img">
+                        </figure>
+                        <div class="card-content">
+                            <h3 class="h3 card-title">Recursos en Línea</h3>
+                            <p class="card-text">
+                                Accede a información y recursos sobre educación sexual integral desde cualquier lugar del mundo.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a class="btn btn-primary">Comenzar</a>
+        </div>
+    </section>
+    
+      
+      
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+          <p class="section-subtitle text-center">- Recursos para la Educación Sexual Integral -</p>
+          <h2 class="h2 section-title text-center">Recursos para la Educación Sexual</h2>
+          <p class="section-text text-center">
+            Accede a una amplia gama de recursos para promover la educación sexual integral y la salud sexual y reproductiva.
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="01">01</data>
+                <h3 class="h3 card-title">Comprender la anatomía y fisiología</h3>
+                <p class="card-text">
+                  Es esencial comprender la anatomía y fisiología del cuerpo humano para tomar decisiones informadas sobre la salud sexual y reproductiva.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="02">02</data>
+                <h3 class="h3 card-title">Promover la comunicación en las relaciones</h3>
+                <p class="card-text">
+                  Fomentar la comunicación abierta y saludable en las relaciones interpersonales es clave para construir relaciones sólidas y respetuosas.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="03">03</data>
+                <h3 class="h3 card-title">Derechos sexuales y reproductivos</h3>
+                <p class="card-text">
+                  Conoce y promueve los derechos sexuales y reproductivos de todas las personas, incluyendo la igualdad de género.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="04">04</data>
+                <h3 class="h3 card-title">Prevención de infecciones de transmisión sexual</h3>
+                <p class="card-text">
+                  Aprende sobre las ITS y cómo prevenirlas a través de prácticas sexuales seguras y el uso de métodos de protección.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="05">05</data>
+                <h3 class="h3 card-title">Salud sexual y reproductiva en la adolescencia</h3>
+                <p class="card-text">
+                  Aborda la salud sexual y reproductiva en la adolescencia y cómo apoyar a los jóvenes en la toma de decisiones saludables.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="06">06</data>
+                <h3 class="h3 card-title">Promoción de la igualdad de género</h3>
+                <p class="card-text">
+                  Trabaja en la promoción de la igualdad de género y el respeto de los derechos de todas las personas en el ámbito sexual y reproductivo.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>      
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" id="Preguntas" aria-label="Preguntas frecuentes sobre educación sexual integral">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="h2 section-title">Descubre Preguntas Frecuentes</h2>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="faq-card">
+                    <button class="card-action" data-accordion-action>
+                        <h3 class="h3 card-title">
+                            01. ¿Qué tipos de anticonceptivos existen y cuál es el más adecuado para mí?
+                        </h3>
+                        <div class="action-icon">
+                            <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                            <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                        </div>
+                    </button>
+                    <div class="card-content">
+                        <p>Existen diversos anticonceptivos, como condones, píldoras anticonceptivas, DIU, implantes, entre otros. La elección del más adecuado depende de tus necesidades y salud. Consulta a un profesional de la salud para obtener orientación.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="faq-card">
+                    <button class="card-action" data-accordion-action>
+                        <h3 class="h3 card-title">
+                            02. ¿Cuáles son las enfermedades de transmisión sexual (ETS) más comunes y cómo puedo prevenirlas?
+                        </h3>
+                        <div class="action-icon">
+                            <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                            <ion-icon name="remove-outline" aria-hidden="true" class "close"></ion-icon>
+                        </div>
+                    </button>
+                    <div class="card-content">
+                        <p>Las ETS comunes incluyen clamidia, gonorrea, VIH/SIDA, herpes, sífilis, y más. La prevención involucra el uso de condones, pruebas regulares, y prácticas sexuales seguras. La educación sexual integral puede proporcionar información importante sobre la prevención de ETS.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="faq-card">
+                    <button class="card-action" data-accordion-action>
+                        <h3 class="h3 card-title">
+                            03. ¿Cómo se tratan las enfermedades de transmisión sexual (ETS)?
+                        </h3>
+                        <div class="action-icon">
+                            <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                            <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                        </div>
+                    </button>
+                    <div class="card-content">
+                        <p>El tratamiento de las ETS varía según el tipo de enfermedad. Algunas ETS se pueden tratar con antibióticos, mientras que otras requieren tratamiento médico específico. Es fundamental buscar atención médica y seguir las indicaciones del profesional de la salud en caso de una ETS.</p>
+                    </div>
+                </div>
+            </li>
+                <li>
+                    <div class="faq-card">
+                        <button class="card-action" data-accordion-action>
+                            <h3 class="h3 card-title">
+                                04. ¿Cómo puedo promover la educación sexual integral en mi comunidad?
+                            </h3>
+                        <div class="action-icon">
+                            <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                            <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                        </div>
+                        </button>
+                        <div class="card-content">
+                            <p>Promueve la educación sexual integral organizando charlas, participando en proyectos, fomentando la comunicación y proporcionando recursos educativos.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="faq-card">
+                        <button class="card-action" data-accordion-action>
+                            <h3 class="h3 card-title">
+                                05. ¿Cuál es el papel de la educación sexual integral en la prevención de enfermedades?
+                            </h3>
+                        <div class="action-icon">
+                            <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                            <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                        </div>
+                        </button>
+                        <div class="card-content">
+                            <p>La educación sexual integral desempeña un papel fundamental en la prevención de enfermedades al proporcionar información sobre prácticas sexuales seguras, métodos de protección y concienciación sobre enfermedades de transmisión sexual.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">EduSex</a>
+
+          <p class="footer-text">
+            Nuestra página web de educación sexual integral está dedicada a proporcionar información esencial y recursos para promover la salud sexual y prevenir riesgos.
+          </p>
+
+        </div>
+
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              Boyaca-sogamoso
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+573045672501</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a class="contact-link">EduSex@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+          
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 EducaDrogas | All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
